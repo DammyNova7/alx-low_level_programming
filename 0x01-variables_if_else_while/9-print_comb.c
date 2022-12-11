@@ -12,16 +12,19 @@
 int main(void)
 
 {
-	int i = 48;
+	int i = '0';
 
-	for (; i < 58; i++)
+	for (; i < '9';; i++)
 {
-	putchar(i);
-	if (i < 48)
+	putchar(i + '0');
+
+	if (i < 9)
 
 	{
-	putchar(44);
-	putchar(32);
+
+		putchar(',');
+
+		putchar(' ');
 	}
 }
 
