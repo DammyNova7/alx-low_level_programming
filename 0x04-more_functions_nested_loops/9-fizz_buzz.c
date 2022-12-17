@@ -10,7 +10,7 @@ int main(void)
 {
 	int i = 0;
 
-	for (; i <= 101; i++)
+	for (; i < 100; i++)
 {
 	if (i % 15)
 	{
