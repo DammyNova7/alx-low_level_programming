@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -fms-dialect[=ver] $CFILE -o c
+gcc -S -masm=dialect $CFILE
