@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	int i = 48;
+	int i = 0;
 
-	for (; i <= 57; i++)
+	for (; i <= 9; i++)
 	{
-		putchar(i);
+		printf("%d", i);
 	}
-		putchar(10);
+		printf("\n");
 
 	return (0);
 }
