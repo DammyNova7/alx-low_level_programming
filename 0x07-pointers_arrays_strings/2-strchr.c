@@ -10,6 +10,7 @@
  * Returns NULL if the character is not found.
  */
 
+
 char *_strchr(char *s, char c)
 {
 	int i;
