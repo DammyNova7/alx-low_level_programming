@@ -1,17 +1,14 @@
 # 0x00. C - Hello, World  
 # C
 
-## General  
-Why C programming is awesome  
-Who invented C  
-Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds  
-What happens when you type gcc main.c  
-What is an entry point  
-What is main  
-How to print text using printf, puts and putchar  
-How to get the size of a specific type using the unary operator sizeof  
-How to compile using gcc  
-What is the default program name when compiling with gcc  
-What is the official C coding style and how to check your code with betty-style  
-How to find the right header to include in your source code when using a standard library function  
-How does the main function influence the return value of the program  
+### * [0x00-Hello_World](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x00-hello_world)
+### * [0x01-Variables_If_Else_While](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+### * [0x02-Functions_Nested_Loops](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
+### * [0x03-Debugging](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x03-debugging)
+### * [0x04-More_Functions_Nested_Loops](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+### * [0x05-Pointers_Arrays_Strings](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+### * [0x06-Pointers_Arrays_Strings](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+### * [0x07-Pointers_Arrays_Strings](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
+### * [0x08-Recursion](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x08-recursion)
+### * [0x09-Static_Libraries](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x09-static_libraries)
+### * [0x0A-Argc_Argv](https://github.com/DammyNova7/alx-low_level_programming/tree/master/0x0A-argc_argv)
