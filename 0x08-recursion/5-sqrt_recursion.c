@@ -46,7 +46,7 @@ int sqr_helper(int i, int start, int end)
 	}
 	else if (mid * mid > i)
 	{
-		return (sqr_helper(i, start, mid -1));
+		return (sqr_helper(i, start, mid - 1));
 	}
 	else
 	{
