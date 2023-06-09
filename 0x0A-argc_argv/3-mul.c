@@ -12,15 +12,17 @@
 
 int main(int argc, char *argv[])
 {
+	int i, n, result;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	int i = atoi(argv[1]);
-	int n = atoi(argv[2]);
-	int result = i * n;
+	i = atoi(argv[1]);
+	n = atoi(argv[2]);
+	result = i * n;
 
 	printf("%d\n", result);
 
