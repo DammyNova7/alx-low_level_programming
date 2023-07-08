@@ -2,3 +2,4 @@
 # C
 
 * Manipulating bit in C using bitwise operators
+* Alx tasks
