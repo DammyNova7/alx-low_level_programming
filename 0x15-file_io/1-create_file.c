@@ -8,8 +8,8 @@
  *
  * function handles errors properly for each syscall.
  *
- * Return: 1 on success, -1 on failure if
- * (file can not be created, file can not be written, write “fails”, etc…).
+ * Return: 1 on success, -1 on failure if (file can not be created,
+ * file can not be written, write “fails”, etc…).
  *
  */
 
