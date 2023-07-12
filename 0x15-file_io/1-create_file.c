@@ -17,6 +17,14 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd, write_b;
+	int size;
+
+	int len = 0;
+	while (text_content[len] != '\0')
+		len++;
+
+	size = len;
+
 
 	fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
 	if (fd == -1)
@@ -24,7 +32,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	}
 
-	write_b = write(fd, text_content, sizeof(text_content));
+	write_b = write(fd, text_content, size);
 	if (write_b == -1)
 	{
 		close(fd);
