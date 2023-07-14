@@ -17,7 +17,7 @@
 int main(int ac, char **argv)
 {
 	int fd1, fd2, close_fd1, close_fd2;
-	int bytes_r, bytes_w;
+	int bytes_r, bytes_w, len = 0;
 	char *file_from, *file_to;
 	char *Buffer;
 
@@ -31,7 +31,9 @@ int main(int ac, char **argv)
 		file_from = argv[1];
 		file_to = argv[2];
 	}
-	Buffer = malloc(sizeof(char) * 1024);
+	while (file_from[len] != '\0')
+	len++;
+	Buffer = malloc(sizeof(char) * len);
 	if (Buffer == NULL)
 	{
 		return (-1);
@@ -39,7 +41,7 @@ int main(int ac, char **argv)
 	fd1 = open(file_from, O_RDONLY);
 	if (fd1 == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: 1Can't read from file %s\n", file_from);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		free(Buffer);
 		exit(98);
 	}
