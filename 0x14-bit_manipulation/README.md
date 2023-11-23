@@ -1,5 +1,4 @@
 # 0x14. C - Bit manipulation
 # C
 
-* Manipulating bit in C using bitwise operators
-* Alx tasks
+I learnt basic bit manipulation operations using C while doing the following tasks
