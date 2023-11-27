@@ -6,6 +6,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 
+#define BUFFER_SIZE 1024
+
 /**
  *_error - prints an error message to stderr
  * @code: error code to exit with
